@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    background-color: lightseagreen;
+}
+
+.main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.to_do_content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.App {
+    width: 1700px;
+}
+
+.button {
+    border-radius: 10em;
+    padding: 0.5em;
+    background-color: lightcyan;
+}
+
+.edit {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    transform: scale(0);
+}
+
+.edit_active {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -2.5px;
+    transform: scale(1);
+}
+
+.edit_content {
+    border-radius: 10px;
+    background-color: white;
+    padding: 25px;
+}
+
+.edit_input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tags {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.tags_done {
+    color: lightskyblue;
+    text-decoration: line-through;
+}
+
+.task_incomplete {
+    text-decoration: none;
+}
+
+.task_done {
+    text-decoration: line-through;
+}
